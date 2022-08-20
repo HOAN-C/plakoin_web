@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../image/mainImage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,6 +13,7 @@
 .article {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  text-shadow: black 1px 0 10px;
   font-weight: 400;
   font-size: 3rem;
   color: white;

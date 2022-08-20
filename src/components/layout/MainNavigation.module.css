@@ -8,11 +8,24 @@
   background-color: rgb(33, 45, 58);
 }
 
-.logo {
-  margin-left: 1rem;
+#logo {
+  align-items: center;
+  padding: 0 0 0 1.5rem;
+  height: 100%;
+  width: 11rem;
   font-weight: 900;
   font-size: 2rem;
-  color: rgb(232, 206, 75);
+  color: rgb(33, 45, 58);
+  background-color: rgb(232, 206, 75);
+}
+
+.ptName {
+  margin-top: 0.2rem;
+}
+
+.country {
+  font-size: 1.8rem;
+  font-weight: 100;
 }
 
 .header ul {

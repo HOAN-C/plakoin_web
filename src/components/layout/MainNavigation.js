@@ -5,7 +5,10 @@ import classes from "./MainNavigation.module.css";
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>PLAKOIN IND</div>
+      <Link to="/" id={classes.logo}>
+        <div className={classes.ptName}>PLAKOIN</div>
+        <div className={classes.country}>INDONESIA</div>
+      </Link>
       <nav>
         <ul>
           <li>
