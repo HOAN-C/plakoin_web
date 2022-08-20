@@ -12,7 +12,7 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Introdution</Link>
+            <Link to="/intro">Introdution</Link>
           </li>
           <li>
             <Link to="/">Address</Link>
