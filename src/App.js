@@ -1,18 +1,13 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import MainPage from "./components/pages/MainPage";
-import IntroPage from "./components/pages/IntroPage";
+import CompanyName from "./components/pages/CompanyName";
+import Foundation from "./components/pages/Foundation";
 
 function App() {
   return (
     <Layout>
-      <Routes>
-        <Route path="/" exact={true} element={<MainPage />} />
-        <Route path="/intro" element={<IntroPage />} />
-        {/* <Route path="/address" element={<AddressPage />} />
-        <Route path="/contact" element={<ContactPage />} /> */}
-      </Routes>
+      <CompanyName />
+      <Foundation />
     </Layout>
   );
 }

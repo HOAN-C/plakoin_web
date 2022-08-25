@@ -1,24 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <Link to="/" id={classes.logo}>
+      <a href="/" id={classes.logo}>
         <div className={classes.ptName}>PLAKOIN</div>
         <div className={classes.country}>INDONESIA</div>
-      </Link>
+      </a>
       <nav>
         <ul>
           <li>
-            <Link to="/intro">Introdution</Link>
+            <a href="/">Introdution</a>
           </li>
           <li>
-            <Link to="/">Address</Link>
+            <a href="/">Address</a>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <a href="/">Contact</a>
           </li>
         </ul>
       </nav>
