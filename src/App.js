@@ -124,6 +124,7 @@ let partners = [
     web: "http://www.matsuo.co.id/index.php",
   },
   {
+    logo: "img/companyLogo.png",
     name: "TOKAI RIKA INDONESIA",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
