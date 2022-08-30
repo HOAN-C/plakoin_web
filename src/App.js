@@ -4,6 +4,7 @@ import CompanyName from "./components/pages/CompanyName";
 import Foundation from "./components/pages/Foundation";
 import MainProducts from "./components/pages/MainProducts";
 import MachineList from "./components/pages/MachineList";
+import Partners from "./components/pages/Partners";
 
 let productItems = [
   "Standtdard parts(mold part and stampoing part)",
@@ -81,6 +82,96 @@ let machinesList = [
   },
 ];
 
+let partners = [
+  {
+    logo: "img/companyLogo.png",
+    name: "SHINSEI DENSHI INDONESIA",
+    country: "JAP",
+    mainProduct: "OTOMOTIVE PARTS",
+    addr: "KAWASAN INDUSTRI MM 2100",
+    web: "http://www.shinsei-denshi.co.jp/Group_jigyousyo/PT_SDI.html",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "PANASONIC GOBEL LIFE SOLUTIONS",
+    country: "JAP",
+    mainProduct: "ELECTRICAL PARTS",
+    addr: "BOGOR & PASURUAN",
+    web: "https://panasonic.net/electricworks/about/global-network/",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "OMRON MANUFACTURING INDONESIA",
+    country: "JAP",
+    mainProduct: "ELECTRONICS PARTS",
+    addr: "KAWASAN INDUSTRI EJIP",
+    web: "https://www.omron.co.id/",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "ADVANEX PRECISION INDONESIA",
+    country: "JAP",
+    mainProduct: "OTOMOTIVE PARTS",
+    addr: "BEKASI INTERNATIONAL INDUSTRIAL ESTATE",
+    web: "#",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "MATSUO PRECISION INDONESIA",
+    country: "JAP",
+    mainProduct: "AUTOMOTIVE PARTS",
+    addr: "KAWASAN INDUSTRI GIIC",
+    web: "http://www.matsuo.co.id/index.php",
+  },
+  {
+    name: "TOKAI RIKA INDONESIA",
+    country: "JAP",
+    mainProduct: "AUTOMOTIVE PARTS",
+    addr: "KAWASAN INDUSTRI MM 2100",
+    web: "http://www.tokai-rika.co.jp/en/company/",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "TOYODENSO INDONESIA",
+    country: "JAP",
+    mainProduct: "AUTOMOTIVE PARTS",
+    addr: "KAWASAN INDUSTRI MM 2100",
+    web: "https://www.toyo-denso.co.jp/",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "NANBU PLASTIC INDONESIA",
+    country: "JAP",
+    mainProduct: "AUTOMOTIVE PARTS",
+    addr: "KAWASAN INDUSTRI MM 2100",
+    web: "#",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "ORIENTAL ELECTRONIC INDONESIA",
+    country: "KOR",
+    mainProduct: "ELECTRONIC PARTS",
+    addr: "KAWASAN INDUSTRI HYUNDAI",
+    web: "#",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "GLOBAL SHINSEI INDONESIA",
+    country: "JAP",
+    mainProduct: "AUTOMOTIVE PARTS",
+    addr: "KAWASAN INDUSTRI EJIP",
+    web: "https://www.shinsei-shiga.co.jp/english/global/",
+  },
+  {
+    logo: "img/companyLogo.png",
+    name: "HIROSE ELECTRIC INDONESIA",
+    country: "JAP",
+    mainProduct: "ELECTRICAL PARTS",
+    addr: "KAWASAN INDUSTRI EJIP",
+    web: "https://www.hirose.com/#",
+  },
+];
+
 function App() {
   return (
     <Layout>
@@ -88,6 +179,7 @@ function App() {
       <Foundation />
       <MainProducts productItems={productItems} />
       <MachineList machinesList={machinesList} />
+      <Partners partners={partners} />
     </Layout>
   );
 }

@@ -5,7 +5,7 @@ function Layout(props) {
   return (
     <div>
       <MainNavigation />
-      <main className="">{props.children}</main>
+      <main>{props.children}</main>
       <Footer />
     </div>
   );
