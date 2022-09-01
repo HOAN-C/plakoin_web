@@ -1,0 +1,20 @@
+.box {
+  text-align: center;
+}
+
+.sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5rem;
+  margin: 0px;
+  font-weight: 400;
+  letter-spacing: -2.5px;
+}
+
+.item {
+  display: inline-block;
+  width: 100px;
+}
+
+.img {
+  width: 100%;
+}

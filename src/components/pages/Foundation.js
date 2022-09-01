@@ -1,12 +1,10 @@
 import classes from "./Foundation.module.css";
 
-function Foundation() {
+export default function Foundation() {
   return (
-    <div className={classes.box}>
+    <article className={classes.box}>
       <p className={classes.since}>Since</p>
       <p className={classes.date}>Nov 2019 ~ Now</p>
-    </div>
+    </article>
   );
 }
-
-export default Foundation;

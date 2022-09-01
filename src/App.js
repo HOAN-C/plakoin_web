@@ -9,10 +9,19 @@ import Address from "./components/pages/Address";
 import Contact from "./components/pages/Contact";
 
 let productItems = [
-  "Standard parts(mold part and stampoing part)",
-  "Percision Mold, Dies, Casting spare Part",
-  "Injection Mold & Die Stamping Maker",
-  "Plastic Injection",
+  {
+    name: "Standard parts(mold part and stampoing part)",
+    img: "img/StandardParts.png",
+  },
+  {
+    name: "Precision Mold, Dies, Casting spare Part",
+    img: "img/PrecisionMold.jpeg",
+  },
+  {
+    name: "Injection Mold & Die Stamping Maker",
+    img: "img/InjectionMold.jpg",
+  },
+  { name: "Plastic Injection", img: "img/PlasticInjection.jpg" },
 ];
 
 let machinesList = [

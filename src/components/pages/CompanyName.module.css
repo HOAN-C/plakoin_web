@@ -22,30 +22,31 @@
 .span1 {
   position: relative;
   top: 30vh;
-  animation: slide 400ms linear 0s normal 1 backwards;
+  animation: slide 450ms linear 0s normal 1 backwards;
 }
 .span2 {
   position: relative;
   top: 30vh;
-  animation: slide 400ms linear 430ms normal 1 backwards;
+  animation: slide 450ms linear 490ms normal 1 backwards;
 }
 .span3 {
   position: relative;
   top: 30vh;
-  animation: slide 400ms linear 860ms normal 1 backwards;
+  animation: slide 450ms linear 980ms normal 1 backwards;
 }
 
 .companyName {
+  color: rgb(232, 206, 75);
   position: relative;
   top: 30vh;
   font-weight: 800;
-  font-size: 4rem;
-  animation: slide 400ms linear 1290ms normal 1 backwards;
+  font-size: 4.5rem;
+  animation: slide 450ms linear 1470ms normal 1 backwards;
 }
 
 @keyframes slide {
   from {
-    top: 28vh;
+    top: 28.5vh;
     opacity: 0;
   }
   to {
