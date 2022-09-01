@@ -12,8 +12,7 @@ function Partners(props) {
             <div>{partner.country}</div>
             <div>{partner.mainProduct}</div>
             <div>{partner.addr}</div>
-            <div>{partner.web}</div>
-            <br />
+            <a href={partner.web}>WEB site</a>
           </div>
         ))}
       </div>

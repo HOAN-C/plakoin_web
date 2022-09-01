@@ -5,9 +5,11 @@ import Foundation from "./components/pages/Foundation";
 import MainProducts from "./components/pages/MainProducts";
 import MachineList from "./components/pages/MachineList";
 import Partners from "./components/pages/Partners";
+import Address from "./components/pages/Address";
+import Contact from "./components/pages/Contact";
 
 let productItems = [
-  "Standtdard parts(mold part and stampoing part)",
+  "Standard parts(mold part and stampoing part)",
   "Percision Mold, Dies, Casting spare Part",
   "Injection Mold & Die Stamping Maker",
   "Plastic Injection",
@@ -181,6 +183,8 @@ function App() {
       <MainProducts productItems={productItems} />
       <MachineList machinesList={machinesList} />
       <Partners partners={partners} />
+      <Address />
+      <Contact />
     </Layout>
   );
 }
