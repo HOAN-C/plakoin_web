@@ -1,11 +1,11 @@
-import classes from "./MachineList.module.css";
+import classes from "./EquipmentStatus.module.css";
 
-function MachineList(props) {
+function EquipmentStatus(props) {
   return (
-    <div>
+    <article>
       <h1>Equipment status</h1>
       <div className={classes.box}>
-        {props.machinesList.map((machine) => (
+        {props.equipmentStatus.map((machine) => (
           <div className={classes.card}>
             <img className={classes.img} src={machine.img} alt="Loading" />
             <h1 className={classes.name}>{machine.name}</h1>
@@ -14,8 +14,8 @@ function MachineList(props) {
           </div>
         ))}
       </div>
-    </div>
+    </article>
   );
 }
 
-export default MachineList;
+export default EquipmentStatus;

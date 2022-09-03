@@ -1,20 +1,73 @@
-.box {
-  text-align: center;
+article {
+  padding: 2rem;
 }
 
-.sub {
+.titleBox {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.title {
   font-family: "Roboto", sans-serif;
+  color: rgb(33, 45, 58);
   font-size: 4.5rem;
-  margin: 0px;
+  margin: 0;
   font-weight: 400;
   letter-spacing: -2.5px;
 }
 
-.item {
-  display: inline-block;
+.line {
+  margin-top: 1.3rem;
+  margin-bottom: 1.8rem;
   width: 100px;
+  height: 15px;
+  background-color: rgb(235, 205, 52);
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.itemBox {
+  margin: 0 0.7rem 1.7rem;
+  width: 15rem;
+  height: 23rem;
+  border: solid rgb(33, 45, 58) 1px;
+  border-radius: 5px;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 .img {
   width: 100%;
+}
+
+.nameContainer {
+  border-radius: 0 0 3px 3px;
+  height: 20%;
+  background-color: rgb(33, 45, 58);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.name {
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
 }

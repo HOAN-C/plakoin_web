@@ -3,28 +3,28 @@ import Layout from "./components/layout/Layout";
 import CompanyName from "./components/pages/CompanyName";
 import Foundation from "./components/pages/Foundation";
 import MainProducts from "./components/pages/MainProducts";
-import MachineList from "./components/pages/MachineList";
+import EquipmentStatus from "./components/pages/EquipmentStatus";
 import Partners from "./components/pages/Partners";
 import Address from "./components/pages/Address";
 import Contact from "./components/pages/Contact";
 
-let productItems = [
+let mainProducts = [
   {
-    name: "Standard parts(mold part and stampoing part)",
-    img: "img/StandardParts.png",
+    name: "Standard parts",
+    img: "img/MainProducts/StandardParts.png",
   },
   {
-    name: "Precision Mold, Dies, Casting spare Part",
-    img: "img/PrecisionMold.jpeg",
+    name: "Precision Mold",
+    img: "img/MainProducts/PrecisionMold.jpeg",
   },
   {
-    name: "Injection Mold & Die Stamping Maker",
-    img: "img/InjectionMold.jpg",
+    name: "Injection Mold",
+    img: "img/MainProducts/InjectionMold.jpg",
   },
-  { name: "Plastic Injection", img: "img/PlasticInjection.jpg" },
+  { name: "Plastic Injection", img: "img/MainProducts/PlasticInjection.jpg" },
 ];
 
-let machinesList = [
+let equipmentStatus = [
   {
     name: "PROFILE GRINDING M/C",
     IND: "ON 2022",
@@ -188,10 +188,10 @@ function App() {
   return (
     <Layout>
       <CompanyName />
-      <Foundation />
-      <MainProducts productItems={productItems} />
-      <MachineList machinesList={machinesList} />
+      <MainProducts mainProducts={mainProducts} />
+      <EquipmentStatus equipmentStatus={equipmentStatus} />
       <Partners partners={partners} />
+      <Foundation />
       <Address />
       <Contact />
     </Layout>

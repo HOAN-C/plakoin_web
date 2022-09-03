@@ -8,7 +8,7 @@
 .card {
   width: 12vw;
   border: solid gray 1px;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 2em;
   margin: 0 0.5rem 0.5rem 1.5rem;
 }

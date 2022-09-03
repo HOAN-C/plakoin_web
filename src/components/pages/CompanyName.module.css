@@ -1,6 +1,6 @@
 .back {
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../../../public/img/mainImage.jpg);
   background-attachment: fixed;
@@ -9,8 +9,6 @@
 }
 
 .article {
-  z-index: -0;
-
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.481) 1px 0 7px;
@@ -22,31 +20,31 @@
 .span1 {
   position: relative;
   top: 30vh;
-  animation: slide 450ms linear 0s normal 1 backwards;
+  animation: slide 440ms linear 0s normal 1 backwards;
 }
 .span2 {
   position: relative;
   top: 30vh;
-  animation: slide 450ms linear 490ms normal 1 backwards;
+  animation: slide 440ms linear 510ms normal 1 backwards;
 }
 .span3 {
   position: relative;
   top: 30vh;
-  animation: slide 450ms linear 980ms normal 1 backwards;
+  animation: slide 440ms linear 1010ms normal 1 backwards;
 }
 
 .companyName {
-  color: rgb(232, 206, 75);
+  color: rgb(235, 205, 52);
   position: relative;
   top: 30vh;
   font-weight: 800;
   font-size: 4.5rem;
-  animation: slide 450ms linear 1470ms normal 1 backwards;
+  animation: slide 440ms linear 1510ms normal 1 backwards;
 }
 
 @keyframes slide {
   from {
-    top: 28.5vh;
+    top: 28vh;
     opacity: 0;
   }
   to {
