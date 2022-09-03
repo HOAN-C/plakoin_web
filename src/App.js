@@ -29,73 +29,73 @@ let equipmentStatus = [
     name: "PROFILE GRINDING M/C",
     IND: "ON 2022",
     KOR: 3,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/ProfileGrindingMC.jpg",
   },
   {
     name: "CNC MILLING M/C",
     IND: 2,
     KOR: 3,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/CNCLatheMC.jpg",
   },
   {
     name: "WEDM M/C",
     IND: 2,
     KOR: 10,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/WEDMMC.png",
   },
   {
     name: "EDM M/C",
     IND: 6,
     KOR: 5,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/EDMMC.png",
   },
   {
     name: "SURFACE GRINDING M/C",
     IND: 8,
     KOR: 7,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/SurfaceGrindingMC.jpg",
   },
   {
     name: "EXTERNAL GRINDING M/C",
     IND: 2,
     KOR: 5,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/ExternalGrindingMC.jpg",
   },
   {
     name: "INTERNAL GRINDING M/C",
     IND: 1,
     KOR: 5,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/InternalGrindingMC.jpg",
   },
   {
     name: "CNC LATHE M/C",
     IND: "ON 2022",
     KOR: 15,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/CNCLatheMC.jpg",
   },
   {
     name: "LASER MARKING",
     IND: 1,
     KOR: 2,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/LaserMarking.png",
   },
   {
     name: "SUPERDRILL",
     IND: 1,
     KOR: 2,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/SuperDrill.jpg",
   },
   {
     name: "INJECTION PLASTIC M/C",
     IND: 12,
     KOR: 10,
-    img: "img/machine.png",
+    img: "img/EquipmentStatus/InjectionPlasticMC.jpg",
   },
 ];
 
 let partners = [
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "SHINSEI DENSHI INDONESIA",
     country: "JAP",
     mainProduct: "OTOMOTIVE PARTS",
@@ -103,7 +103,7 @@ let partners = [
     web: "http://www.shinsei-denshi.co.jp/Group_jigyousyo/PT_SDI.html",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "PANASONIC GOBEL LIFE SOLUTIONS",
     country: "JAP",
     mainProduct: "ELECTRICAL PARTS",
@@ -111,7 +111,7 @@ let partners = [
     web: "https://panasonic.net/electricworks/about/global-network/",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "OMRON MANUFACTURING INDONESIA",
     country: "JAP",
     mainProduct: "ELECTRONICS PARTS",
@@ -119,7 +119,7 @@ let partners = [
     web: "https://www.omron.co.id/",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "ADVANEX PRECISION INDONESIA",
     country: "JAP",
     mainProduct: "OTOMOTIVE PARTS",
@@ -127,7 +127,7 @@ let partners = [
     web: "#",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "MATSUO PRECISION INDONESIA",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
@@ -135,7 +135,7 @@ let partners = [
     web: "http://www.matsuo.co.id/index.php",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "TOKAI RIKA INDONESIA",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
@@ -143,7 +143,7 @@ let partners = [
     web: "http://www.tokai-rika.co.jp/en/company/",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "TOYODENSO INDONESIA",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
@@ -151,7 +151,7 @@ let partners = [
     web: "https://www.toyo-denso.co.jp/",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "NANBU PLASTIC INDONESIA",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
@@ -159,7 +159,7 @@ let partners = [
     web: "#",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "ORIENTAL ELECTRONIC INDONESIA",
     country: "KOR",
     mainProduct: "ELECTRONIC PARTS",
@@ -167,7 +167,7 @@ let partners = [
     web: "#",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "GLOBAL SHINSEI INDONESIA",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
@@ -175,7 +175,7 @@ let partners = [
     web: "https://www.shinsei-shiga.co.jp/english/global/",
   },
   {
-    logo: "img/companyLogo.png",
+    logo: "img/Partners/companyLogo.png",
     name: "HIROSE ELECTRIC INDONESIA",
     country: "JAP",
     mainProduct: "ELECTRICAL PARTS",
