@@ -95,56 +95,56 @@ let equipmentStatus = [
 
 let partners = [
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "SHINSEI DENSHI INDONESIA",
+    logo: "img/Partners/ShinseiElectronicsGroup.png",
+    name: "SHINSEI DENSHI",
     country: "JAP",
     mainProduct: "OTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI MM 2100",
     web: "http://www.shinsei-denshi.co.jp/Group_jigyousyo/PT_SDI.html",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "PANASONIC GOBEL LIFE SOLUTIONS",
+    logo: "img/Partners/Panasonic.png",
+    name: "PANASONIC",
     country: "JAP",
     mainProduct: "ELECTRICAL PARTS",
     addr: "BOGOR & PASURUAN",
     web: "https://panasonic.net/electricworks/about/global-network/",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "OMRON MANUFACTURING INDONESIA",
+    logo: "img/Partners/Omron.png",
+    name: "OMRON",
     country: "JAP",
     mainProduct: "ELECTRONICS PARTS",
     addr: "KAWASAN INDUSTRI EJIP",
     web: "https://www.omron.co.id/",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "ADVANEX PRECISION INDONESIA",
+    logo: "img/Partners/Advanex.png",
+    name: "ADVANEX PRECISION",
     country: "JAP",
     mainProduct: "OTOMOTIVE PARTS",
     addr: "BEKASI INTERNATIONAL INDUSTRIAL ESTATE",
-    web: "#",
+    web: "https://advanexasia.com/",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "MATSUO PRECISION INDONESIA",
+    logo: "img/Partners/Matsuo.png",
+    name: "MATSUO PRECISION",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI GIIC",
     web: "http://www.matsuo.co.id/index.php",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "TOKAI RIKA INDONESIA",
+    logo: "img/Partners/TokaiRika.png",
+    name: "TOKAI RIKA",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI MM 2100",
     web: "http://www.tokai-rika.co.jp/en/company/",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "TOYODENSO INDONESIA",
+    logo: "img/Partners/Toyodenso.png",
+    name: "TOYODENSO",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI MM 2100",
@@ -152,7 +152,7 @@ let partners = [
   },
   {
     logo: "img/Partners/companyLogo.png",
-    name: "NANBU PLASTIC INDONESIA",
+    name: "NANBU PLASTIC",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI MM 2100",
@@ -160,23 +160,23 @@ let partners = [
   },
   {
     logo: "img/Partners/companyLogo.png",
-    name: "ORIENTAL ELECTRONIC INDONESIA",
+    name: "ORIENTAL ELECTRONIC",
     country: "KOR",
     mainProduct: "ELECTRONIC PARTS",
     addr: "KAWASAN INDUSTRI HYUNDAI",
     web: "#",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "GLOBAL SHINSEI INDONESIA",
+    logo: "img/Partners/Shinsei.jpg",
+    name: "GLOBAL SHINSEI",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI EJIP",
     web: "https://www.shinsei-shiga.co.jp/english/global/",
   },
   {
-    logo: "img/Partners/companyLogo.png",
-    name: "HIROSE ELECTRIC INDONESIA",
+    logo: "img/Partners/Hriose.png",
+    name: "HIROSE ELECTRIC",
     country: "JAP",
     mainProduct: "ELECTRICAL PARTS",
     addr: "KAWASAN INDUSTRI EJIP",
@@ -188,12 +188,14 @@ function App() {
   return (
     <Layout>
       <CompanyName />
-      <MainProducts mainProducts={mainProducts} />
-      <EquipmentStatus equipmentStatus={equipmentStatus} />
-      <Partners partners={partners} />
-      <Foundation />
-      <Address />
-      <Contact />
+      <article>
+        <MainProducts mainProducts={mainProducts} />
+        <EquipmentStatus equipmentStatus={equipmentStatus} />
+        <Partners partners={partners} />
+        <Foundation />
+        <Address />
+        <Contact />
+      </article>
     </Layout>
   );
 }

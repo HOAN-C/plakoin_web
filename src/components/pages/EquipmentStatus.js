@@ -2,7 +2,7 @@ import classes from "./EquipmentStatus.module.css";
 
 function EquipmentStatus(props) {
   return (
-    <article>
+    <article className={classes.box}>
       <div className={classes.titleBox}>
         <h1 className={classes.title}>Equipment status</h1>
         {/* <div>

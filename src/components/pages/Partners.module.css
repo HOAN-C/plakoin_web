@@ -1,16 +1,80 @@
-.box {
+.componentBox {
+  padding: 2rem;
+}
+
+.titleBox {
+  border-radius: 3px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../public/img/Partners/background.jpg);
+  background-position: center;
+  height: 400px;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.481) 1px 0 7px;
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+}
+.line {
+  margin-top: 1.3rem;
+  margin-bottom: 1.8rem;
+  width: 100px;
+  height: 15px;
+  background-color: rgb(235, 205, 52);
+}
+
+.container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 .item {
   padding: 1em;
-  border: 1px solid gray;
-  width: 15rem;
+  /* border: 1px solid gray; */
+  width: 13rem;
+  height: 12rem;
+  text-decoration: none;
+}
+
+.imgBox {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .img {
   width: 100%;
+}
+
+.desc {
+  height: 30%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.name {
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: -0.3px;
+}
+
+.mainProduct {
+  letter-spacing: -0.3px;
+  color: black;
+  font-weight: 100;
+  /* font-weight: 300; */
 }

@@ -20,17 +20,17 @@
 .span1 {
   position: relative;
   top: 30vh;
-  animation: slide 440ms linear 0s normal 1 backwards;
+  animation: slide 400ms linear 300ms normal 1 backwards;
 }
 .span2 {
   position: relative;
   top: 30vh;
-  animation: slide 440ms linear 510ms normal 1 backwards;
+  animation: slide 400ms linear 810ms normal 1 backwards;
 }
 .span3 {
   position: relative;
   top: 30vh;
-  animation: slide 440ms linear 1010ms normal 1 backwards;
+  animation: slide 400ms linear 1310ms normal 1 backwards;
 }
 
 .companyName {
@@ -39,7 +39,7 @@
   top: 30vh;
   font-weight: 800;
   font-size: 4.5rem;
-  animation: slide 440ms linear 1510ms normal 1 backwards;
+  animation: slide 400ms linear 1810ms normal 1 backwards;
 }
 
 @keyframes slide {
