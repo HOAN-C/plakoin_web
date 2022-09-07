@@ -1,4 +1,5 @@
-.back {
+.componentBox {
+  display: block;
   width: 100vw;
   height: 85vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -6,40 +7,48 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-.article {
+.titleBox {
+  position: relative;
+  top: 35vh;
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.481) 1px 0 7px;
-  font-weight: 300;
-  font-size: 3rem;
-  color: white;
 }
 
-.span1 {
-  position: relative;
-  top: 30vh;
-  animation: slide 400ms linear 300ms normal 1 backwards;
-}
-.span2 {
-  position: relative;
-  top: 30vh;
-  animation: slide 400ms linear 810ms normal 1 backwards;
-}
-.span3 {
-  position: relative;
-  top: 30vh;
-  animation: slide 400ms linear 1310ms normal 1 backwards;
-}
-
-.companyName {
+.title {
   color: rgb(235, 205, 52);
-  position: relative;
-  top: 30vh;
+  margin: 0;
   font-weight: 800;
   font-size: 4.5rem;
   animation: slide 400ms linear 1810ms normal 1 backwards;
+}
+
+.span1 {
+  font-weight: 300;
+  font-size: 2.8rem;
+  color: white;
+  /* position: relative; */
+  /* top: 30vh; */
+  animation: slide 400ms linear 300ms normal 1 backwards;
+}
+.span2 {
+  font-weight: 300;
+  font-size: 2.8rem;
+  color: white;
+  /* position: relative; */
+  /* top: 30vh; */
+  animation: slide 400ms linear 810ms normal 1 backwards;
+}
+.span3 {
+  font-weight: 300;
+  font-size: 2.8rem;
+  color: white;
+  /* position: relative; */
+  /* top: 30vh; */
+  animation: slide 400ms linear 1310ms normal 1 backwards;
 }
 
 @keyframes slide {

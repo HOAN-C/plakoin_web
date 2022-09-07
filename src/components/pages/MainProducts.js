@@ -2,19 +2,19 @@ import classes from "./MainProducts.module.css";
 
 export default function MainProducts(props) {
   return (
-    <article>
+    <article className={classes.componentBox}>
       <div className={classes.titleBox}>
         <h1 className={classes.title}>MAIN PRODUCTS</h1>
         <div className={classes.line}></div>
       </div>
-      <div className={classes.container}>
+      <div className={classes.itemBox}>
         {props.mainProducts.map((product, index) => (
-          <div className={classes.itemBox}>
+          <div className={classes.item}>
             <div className={classes.imgContainer}>
               <img
                 className={classes.img}
                 src={product.img}
-                alt="Loading"
+                alt={product.name}
               ></img>
             </div>
             <div className={classes.nameContainer} key={index}>

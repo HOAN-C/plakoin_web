@@ -1,5 +1,7 @@
-article {
-  padding: 2rem;
+.componentBox {
+  margin: 2rem;
+  border: red solid 1px;
+  width: 80vw;
 }
 
 .titleBox {
@@ -9,6 +11,7 @@ article {
 }
 
 .title {
+  text-align: center;
   font-family: "Roboto", sans-serif;
   color: rgb(33, 45, 58);
   font-size: 4.5rem;
@@ -20,20 +23,26 @@ article {
 .line {
   margin-top: 1.3rem;
   margin-bottom: 1.8rem;
-  width: 100px;
-  height: 15px;
+  width: 7rem;
+  height: 1rem;
   background-color: rgb(235, 205, 52);
 }
 
-.container {
-  display: flex;
-  flex-flow: row wrap;
+.itemBox {
+  border: blue solid 1px;
+  display: grid;
+  place-items: center;
   justify-content: center;
+  grid-template-columns: repeat(auto-fit, 15rem);
+  grid-gap: 1rem;
+  padding: 1rem;
 }
 
-.itemBox {
-  margin: 0 0.7rem 1.7rem;
+.item {
   width: 15rem;
+  /* height: 230vw; */
+  place-items: center;
+  align-self: center;
   height: 23rem;
   border: solid rgb(33, 45, 58) 1px;
   border-radius: 5px;

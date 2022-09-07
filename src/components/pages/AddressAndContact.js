@@ -1,6 +1,6 @@
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 import { useMemo } from "react";
-import classes from "./Address.module.css";
+import classes from "./AddressAndContact.module.css";
 
 export default function AddressAndContact() {
   const { isLoaded } = useLoadScript({

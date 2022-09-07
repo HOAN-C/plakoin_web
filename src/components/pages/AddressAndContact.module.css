@@ -1,7 +1,4 @@
-.componentBox {
-}
-
-.titleBox {
+.componentBox .titleBox {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -60,7 +57,7 @@
 
 .item > h1 {
   color: rgb(235, 205, 52);
-  margin: 0.5rem;
+  margin: 0.8rem 0;
   letter-spacing: 0.15rem;
   font-size: 1.3rem;
 }
@@ -70,4 +67,9 @@
   color: lightgray;
   font-weight: 300;
   font-size: 0.9rem;
+}
+@media (max-width: 1060px) {
+  .componentBox {
+    display: none;
+  }
 }

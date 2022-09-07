@@ -186,14 +186,14 @@ let partners = [
 function App() {
   return (
     <Layout>
-      <CompanyName />
-      <article>
+      <section>
+        <CompanyName />
         <MainProducts mainProducts={mainProducts} />
         <EquipmentStatus equipmentStatus={equipmentStatus} />
         <Partners partners={partners} />
         <Foundation />
         <AddressAndContact />
-      </article>
+      </section>
     </Layout>
   );
 }
