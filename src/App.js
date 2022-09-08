@@ -5,7 +5,7 @@ import Foundation from "./components/pages/Foundation";
 import MainProducts from "./components/pages/MainProducts";
 import EquipmentStatus from "./components/pages/EquipmentStatus";
 import Partners from "./components/pages/Partners";
-import AddressAndContact from "./components/pages/AddressAndContact";
+import ContactUs from "./components/pages/AddressAndContact";
 
 let mainProducts = [
   {
@@ -192,7 +192,7 @@ function App() {
         <EquipmentStatus equipmentStatus={equipmentStatus} />
         <Partners partners={partners} />
         <Foundation />
-        <AddressAndContact />
+        <ContactUs />
       </section>
     </Layout>
   );

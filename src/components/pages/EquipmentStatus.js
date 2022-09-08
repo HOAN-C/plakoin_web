@@ -2,7 +2,7 @@ import classes from "./EquipmentStatus.module.css";
 
 function EquipmentStatus(props) {
   return (
-    <article className={classes.box}>
+    <article className={classes.componentBox}>
       <div className={classes.titleBox}>
         <h1 className={classes.title}>Equipment status</h1>
         {/* <div>
@@ -10,9 +10,9 @@ function EquipmentStatus(props) {
           <button>excell</button>
         </div> */}
       </div>
-      <div className={classes.itemContainer}>
-        {props.equipmentStatus.map((machine) => (
-          <div className={classes.item}>
+      <div className={classes.itemBox}>
+        {props.equipmentStatus.map((machine, index) => (
+          <div className={classes.item} key={machine.name + index}>
             <div className={classes.imgBox}>
               <img className={classes.img} src={machine.img} alt="Loading" />
             </div>

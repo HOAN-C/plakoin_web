@@ -1,28 +1,27 @@
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 import { useMemo } from "react";
-import classes from "./AddressAndContact.module.css";
+import classes from "./ContactUs.module.css";
 
-export default function AddressAndContact() {
+export default function ContactUs() {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: "AIzaSyCFLgrxEeRFykz0cem3yeq8Vlv_yZQ7IYU",
   });
 
-  if (!isLoaded) return <div>Loading...</div>;
+  if (!isLoaded) return <div>Map Loading...</div>;
   return (
     <div className={classes.componentBox}>
       <div className={classes.titleBox}>
         <h1 className={classes.title}>CONTACT US</h1>
         <div className={classes.line}></div>
       </div>
-      <div className={classes.infoBox}>
+      <div className={classes.itemBox}>
         <Map />
-        <div className={classes.info}>
+        <div className={classes.infoBox}>
           <div className={classes.item}>
             <img src="img/AddressAndContact/address.png" alt="" />
             <h1>ADDRESS:</h1>
             <p>
               Jl. Jababeka III G Blok C17 BS, Kawasan Industri Jababeka Desa
-              Pasir Gombong – Cikarang Utara Bekasi
             </p>
           </div>
           <div className={classes.item}>

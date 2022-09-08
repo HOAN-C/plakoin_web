@@ -2,14 +2,19 @@ import classes from "./Partners.module.css";
 
 function Partners(props) {
   return (
-    <div className={classes.componentBox}>
+    <article className={classes.componentBox}>
       <div className={classes.titleBox}>
-        <p className={classes.title}>Partner company</p>
+        <h1 className={classes.title}>Partner company</h1>
         <div className={classes.line}></div>
       </div>
-      <div className={classes.container}>
+      <div className={classes.itemBox}>
         {props.partners.map((partner) => (
-          <a className={classes.item} href={partner.web} target=" ">
+          <a
+            className={classes.item}
+            href={partner.web}
+            target=" "
+            key={partner.name}
+          >
             <div className={classes.imgBox}>
               <img
                 className={classes.img}
@@ -18,13 +23,13 @@ function Partners(props) {
               />
             </div>
             <div className={classes.desc}>
-              <div className={classes.name}>{partner.name}</div>
+              <h1 className={classes.name}>{partner.name}</h1>
               <div className={classes.mainProduct}>{partner.mainProduct}</div>
             </div>
           </a>
         ))}
       </div>
-    </div>
+    </article>
   );
 }
 

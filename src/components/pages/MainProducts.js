@@ -9,15 +9,15 @@ export default function MainProducts(props) {
       </div>
       <div className={classes.itemBox}>
         {props.mainProducts.map((product, index) => (
-          <div className={classes.item}>
-            <div className={classes.imgContainer}>
+          <div className={classes.item} key={product.name + index}>
+            <div className={classes.imgBox}>
               <img
                 className={classes.img}
                 src={product.img}
                 alt={product.name}
               ></img>
             </div>
-            <div className={classes.nameContainer} key={index}>
+            <div className={classes.nameContainer}>
               <p className={classes.name}>{product.name}</p>
             </div>
           </div>
