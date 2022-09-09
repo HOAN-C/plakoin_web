@@ -1,7 +1,6 @@
 .componentBox {
-  border: red solid 1px;
   margin: 2.5rem 0;
-  width: 100%;
+  width: 63rem;
   font-family: "Roboto", sans-serif;
 }
 
@@ -69,4 +68,14 @@
   text-align: center;
   font-size: 1.4rem;
   letter-spacing: 1.5px;
+}
+
+@media (min-width: 768px) and (max-width: 1009px) {
+  .componentBox {
+    border: red solid 1px;
+    width: 46rem;
+  }
+  .item {
+    height: 19rem;
+  }
 }

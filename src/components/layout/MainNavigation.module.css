@@ -55,9 +55,3 @@
 .header a.active {
   color: rgb(232, 206, 75);
 }
-
-@media (max-width: 1060px) {
-  .header {
-    display: none;
-  }
-}

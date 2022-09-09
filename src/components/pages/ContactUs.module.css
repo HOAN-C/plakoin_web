@@ -1,11 +1,9 @@
 .componentBox {
   margin: 2.5rem 0;
+  width: 63rem;
   font-family: "Roboto", sans-serif;
-  border: red solid 1px;
-  width: 100%;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
+  flex-flow: column wrap;
   align-items: center;
 }
 
@@ -32,7 +30,7 @@
 }
 
 .itemBox {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -74,4 +72,11 @@
   color: lightgray;
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+@media (min-width: 768px) and (max-width: 1009px) {
+  .componentBox {
+    border: red solid 1px;
+    width: 46rem;
+  }
 }

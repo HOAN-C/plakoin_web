@@ -2,5 +2,29 @@ section {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding: 0 20rem;
+  /* padding: 0 20rem; */
 }
+
+/* @media (min-width: 1488px) and (max-width: 1647px) {
+  section {
+    padding: 0 15rem;
+  }
+}
+
+@media (min-width: 1328px) and (max-width: 1487px) {
+  section {
+    padding: 0 10rem;
+  }
+}
+
+@media (min-width: 1168px) and (max-width: 1327px) {
+  section {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 1167px) {
+  section {
+    padding: 0 4rem;
+  }
+} */
