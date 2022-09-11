@@ -1,2 +1,30 @@
-.box {
+.componentBox {
+  width: 63rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.titleBox {
+  height: 2.4rem;
+  padding: 1rem 1.5rem;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(33, 45, 58);
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  color: rgb(232, 206, 75);
+  font-size: 2rem;
+}
+
+.itemBox {
+  width: 100%;
+}
+.itemBox > img {
+  width: 100%;
 }

@@ -70,7 +70,7 @@
   letter-spacing: 1.5px;
 }
 
-@media (min-width: 768px) and (max-width: 1009px) {
+@media (max-width: 1023px) {
   .componentBox {
     border: red solid 1px;
     width: 46rem;

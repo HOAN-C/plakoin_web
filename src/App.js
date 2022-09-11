@@ -6,6 +6,7 @@ import MainProducts from "./components/pages/MainProducts";
 import EquipmentStatus from "./components/pages/EquipmentStatus";
 import Partners from "./components/pages/Partners";
 import ContactUs from "./components/pages/AddressAndContact";
+import OrganizationChart from "./components/pages/OrganizationChart";
 
 let mainProducts = [
   {
@@ -189,9 +190,10 @@ function App() {
       <section>
         <CompanyName />
         <MainProducts mainProducts={mainProducts} />
-        <EquipmentStatus equipmentStatus={equipmentStatus} />
         <Partners partners={partners} />
+        <EquipmentStatus equipmentStatus={equipmentStatus} />
         <Foundation />
+        <OrganizationChart />
         <ContactUs />
       </section>
     </Layout>

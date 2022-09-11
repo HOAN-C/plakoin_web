@@ -47,7 +47,6 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  /* grid-gap: 1rem; */
 }
 
 .item {
@@ -74,9 +73,16 @@
   font-size: 0.9rem;
 }
 
-@media (min-width: 768px) and (max-width: 1009px) {
+@media (max-width: 1023px) {
   .componentBox {
     border: red solid 1px;
     width: 46rem;
+  }
+
+  .itemBox {
+    width: 100%;
+  }
+  .item {
+    padding: 20px 20px;
   }
 }

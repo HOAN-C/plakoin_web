@@ -14,7 +14,7 @@ function EquipmentStatus(props) {
         {props.equipmentStatus.map((machine, index) => (
           <div className={classes.item} key={machine.name + index}>
             <div className={classes.imgBox}>
-              <img className={classes.img} src={machine.img} alt="Loading" />
+              <img className={classes.img} src={machine.img} alt="MachineImg" />
             </div>
             <div className={classes.info}>
               <h1 className={classes.name}>{machine.name}</h1>
