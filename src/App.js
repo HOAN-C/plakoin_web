@@ -1,7 +1,7 @@
 import "./App.css";
 import Layout from "./components/layout/Layout";
 import CompanyName from "./components/pages/CompanyName";
-import Foundation from "./components/pages/Foundation";
+import BriefHistory from "./components/pages/BriefHistory";
 import MainProducts from "./components/pages/MainProducts";
 import EquipmentStatus from "./components/pages/EquipmentStatus";
 import Partners from "./components/pages/Partners";
@@ -184,6 +184,35 @@ let partners = [
   },
 ];
 
+let briefHistory = [
+  {
+    year: 2014,
+    content: ["Establish a Company Indonesia PT. PLAKOIN TECHNOLOGY INDONESIA"],
+  },
+  {
+    year: 2015,
+    content: [
+      "Register PT. Shinsei Denshi Indonesia, PT. Smep Pacific Indonesia",
+      "Press Mold and injection Mold special spare part",
+    ],
+  },
+  {
+    year: 2018,
+    content: [
+      "Register PT. Panasonic Gobel Life Solutions, PT.KMK, PT.Advanex Presicion Indonesia, Pt. Matsuo Precision Indonesia, PT.IKPI, PT. TSBDLL",
+    ],
+  },
+  {
+    year: 2020,
+    content: [
+      "Partnership (south korea) Supply Standard partmold and stamping",
+      "Register PT. Tokai Rika Indonesia, PT. Hirose Electric Indonesia, PT. Nanbu Plastics Indonesia, PT. KEPI, PT. Global Shinsei Indonesia, PT. Plasess Indonesia, PT. Omron Manufacturing Indonesia, PT. Toyodenso Indonesia, PT. Oriental Electronics Indonesia",
+      "New Progress Moldset",
+      "Change the name from PT. Micro fabricationTec to Plakoin Technology Indonesia",
+    ],
+  },
+];
+
 function App() {
   return (
     <Layout>
@@ -192,7 +221,7 @@ function App() {
         <MainProducts mainProducts={mainProducts} />
         <Partners partners={partners} />
         <EquipmentStatus equipmentStatus={equipmentStatus} />
-        <Foundation />
+        <BriefHistory briefHistory={briefHistory} />
         <OrganizationChart />
         <ContactUs />
       </section>
