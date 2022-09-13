@@ -14,10 +14,10 @@ function MainNavigation() {
             <a href="/">Introdution</a>
           </li>
           <li>
-            <a href="/">Address</a>
+            <a href="/">Contact</a>
           </li>
           <li>
-            <a href="/">Contact</a>
+            <a href="/">ENG/IND</a>
           </li>
         </ul>
       </nav>

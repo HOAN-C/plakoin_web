@@ -13,8 +13,9 @@
 .title {
   text-align: center;
   color: rgb(33, 45, 58);
-  font-size: 4.5rem;
+  font-size: 3rem;
   margin: 0;
+  margin-bottom: -0.5rem;
   font-weight: 400;
   letter-spacing: -2.5px;
 }
@@ -23,7 +24,7 @@
   margin-top: 1.3rem;
   margin-bottom: 2.5rem;
   width: 7rem;
-  height: 1rem;
+  height: 0.5rem;
   background-color: rgb(235, 205, 52);
 }
 
@@ -36,8 +37,8 @@
 }
 
 .item {
-  width: 15rem;
-  height: 23rem;
+  width: 14rem;
+  height: 20rem;
   border: solid rgb(33, 45, 58) 1px;
   border-radius: 5px;
 }

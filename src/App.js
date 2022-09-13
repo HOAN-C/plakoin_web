@@ -132,7 +132,7 @@ let partners = [
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI GIIC",
-    web: "http://www.matsuo.co.id/index.php",
+    web: "https://youtu.be/ORgcATAq6LQ",
   },
   {
     logo: "img/Partners/TokaiRika.png",
@@ -151,20 +151,20 @@ let partners = [
     web: "https://www.toyo-denso.co.jp/",
   },
   {
-    logo: "img/Partners/companyLogo.png",
+    logo: "img/Partners/NambuPlastic.png",
     name: "NANBU PLASTIC",
     country: "JAP",
     mainProduct: "AUTOMOTIVE PARTS",
     addr: "KAWASAN INDUSTRI MM 2100",
-    web: "#",
+    web: "https://www.dnb.com/business-directory/company-profiles.pt_nanbu_plastics_indonesia.cb3fce683ada0eedc58880a25095ce5a.html",
   },
   {
-    logo: "img/Partners/companyLogo.png",
+    logo: "img/Partners/OrientalElectronic.png",
     name: "ORIENTAL ELECTRONIC",
     country: "KOR",
     mainProduct: "ELECTRONIC PARTS",
     addr: "KAWASAN INDUSTRI HYUNDAI",
-    web: "#",
+    web: "https://en.manufakturindo.com/company/detail/pt-oriental-electronics-indonesia.html",
   },
   {
     logo: "img/Partners/Shinsei.jpg",

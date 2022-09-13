@@ -1,5 +1,4 @@
 .componentBox {
-  display: block;
   width: 100vw;
   height: 85vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -12,7 +11,7 @@
 
 .titleBox {
   position: relative;
-  top: 35vh;
+  top: 30vh;
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.481) 1px 0 7px;
@@ -23,41 +22,63 @@
   margin: 0;
   font-weight: 800;
   font-size: 4.5rem;
-  animation: slide 400ms linear 1810ms normal 1 backwards;
+  animation: fadeIn 400ms linear 1810ms 1 normal backwards;
 }
 
 .span1 {
   font-weight: 300;
-  font-size: 2.8rem;
+  font-size: 2rem;
   color: white;
-  /* position: relative; */
-  /* top: 30vh; */
-  animation: slide 400ms linear 300ms normal 1 backwards;
+  animation: fadeIn 400ms linear 300ms 1 normal backwards;
 }
 .span2 {
   font-weight: 300;
-  font-size: 2.8rem;
+  font-size: 2rem;
   color: white;
-  /* position: relative; */
-  /* top: 30vh; */
-  animation: slide 400ms linear 810ms normal 1 backwards;
+  animation: fadeIn 400ms linear 810ms 1 normal backwards;
 }
 .span3 {
   font-weight: 300;
-  font-size: 2.8rem;
+  font-size: 2rem;
   color: white;
-  /* position: relative; */
-  /* top: 30vh; */
-  animation: slide 400ms linear 1310ms normal 1 backwards;
+  animation: fadeIn 400ms linear 1310ms 1 normal backwards;
 }
 
-@keyframes slide {
+.imgBox {
+  margin-top: 56vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInPosition 1850ms ease-out 2300ms infinite normal backwards;
+  /* animation: name duration timing-function delay iteration-count direction
+    fill-mode; */
+}
+
+.mouse {
+  width: 32px;
+}
+
+.arrow {
+  width: 30px;
+}
+
+@keyframes fadeIn {
   from {
-    top: 28vh;
     opacity: 0;
   }
   to {
-    top: 30vh;
     opacity: 1;
+  }
+}
+
+@keyframes fadeInPosition {
+  from {
+    opacity: 0;
+    margin-top: 54vh;
+  }
+  to {
+    opacity: 1;
+    margin-top: 56vh;
   }
 }

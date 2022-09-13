@@ -5,8 +5,8 @@ function Footer() {
     <footer className={classes.footer}>
       <div>
         <p className={classes.article}>
-          CEO : JEA HO CHOI / Contact : +8210-9459-6374 / Business Number :
-          302-20-66624{" "}
+          CEO : JEA HO CHOI / Contact : +82)10-9459-6374 / Business Number :
+          302-20-66624
         </p>
         <p>
           Address : JL. jababeka III G Bloc C17 BS, Kawasan Industri Jababeja

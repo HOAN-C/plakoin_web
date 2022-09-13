@@ -1,5 +1,5 @@
 .componentBox {
-  margin: 2.5rem 0;
+  margin: 2.5rem 0 4.5rem 0;
   width: 63rem;
   font-family: "Roboto", sans-serif;
 }
@@ -25,7 +25,10 @@
 
 .itemBox {
   width: 100%;
+  text-align: center;
 }
 .itemBox > img {
-  width: 100%;
+  margin-top: 3rem;
+  width: 70%;
+  height: 100%;
 }

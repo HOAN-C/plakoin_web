@@ -7,3 +7,7 @@ Email : <a href="https://www.flaticon.com/free-icons/email" title="email icons">
 Location : <a href="https://www.flaticon.com/free-icons/pin" title="pin icons">Pin icons created by Freepik - Flaticon</a>
 
 Time : <a href="https://www.flaticon.com/free-icons/clock" title="clock icons">Clock icons created by dmitri13 - Flaticon</a>
+
+Arrow : <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by twentyfour - Flaticon</a>
+
+Mouse : <a href="https://www.flaticon.com/free-icons/mouse-clicker" title="mouse clicker icons">Mouse clicker icons created by Kiranshastry - Flaticon</a>

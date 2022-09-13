@@ -3,20 +3,26 @@
   width: 63rem;
   font-family: "Roboto", sans-serif;
   text-align: left;
-  border: red solid 1px;
+  /* border: red solid 1px; */
+}
+
+.titleBox {
+  margin-left: 1.8rem;
+  /* margin-bottom: -0.5rem; */
 }
 
 .title {
   color: rgb(33, 45, 58);
   font-weight: 900;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0px;
+  margin-bottom: -0.5rem;
 }
 
 .date {
   margin: 0px;
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .line {
@@ -34,22 +40,23 @@
 }
 
 .item {
-  margin: 1rem;
+  margin: 2rem;
   list-style: none;
 }
 
 .year {
   background-color: rgb(33, 45, 58);
   border-radius: 5px;
-  padding-left: 1rem;
-  width: 10rem;
+  padding-left: 0.7rem;
+  width: 4.5rem;
   color: rgb(235, 205, 52);
-  font-size: 3rem;
+  font-size: 1.7rem;
 }
 
 .article {
   color: rgb(33, 45, 58);
   list-style: disc;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin: 1rem;
+  margin-left: -1.2rem;
 }

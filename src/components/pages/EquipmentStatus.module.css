@@ -32,8 +32,8 @@
 }
 
 .item {
-  width: 15rem;
-  height: 23rem;
+  width: 14rem;
+  height: 20rem;
   border: solid rgb(33, 45, 58) 1px;
   border-radius: 5px;
   overflow: hidden;
@@ -65,7 +65,7 @@
 .name {
   margin: 0;
   position: relative;
-  top: 16px;
+  top: 12px;
   left: 20px;
   color: rgb(235, 205, 52);
   font-weight: 500;
@@ -74,7 +74,7 @@
 
 .unitBox {
   position: relative;
-  top: 20px;
+  top: 13px;
   left: 20px;
   font-weight: 300;
   color: rgb(208, 208, 208);

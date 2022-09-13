@@ -1,5 +1,5 @@
 .componentBox {
-  margin: 2.5rem 0;
+  margin: 0.5rem 0 5rem 0;
   width: 63rem;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -15,21 +15,23 @@
 
 .title {
   color: rgb(33, 45, 58);
-  font-size: 4.5rem;
+  font-size: 3rem;
   margin: 0;
   font-weight: 400;
   letter-spacing: -2.5px;
+  margin-bottom: -0.5rem;
 }
 
 .line {
   margin-top: 1.3rem;
   margin-bottom: 1.8rem;
   width: 100px;
-  height: 15px;
+  height: 8px;
   background-color: rgb(235, 205, 52);
 }
 
 .itemBox {
+  margin-top: 1rem;
   width: 90%;
   display: flex;
   flex-flow: row nowrap;
