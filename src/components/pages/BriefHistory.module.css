@@ -3,7 +3,7 @@
   width: 63rem;
   font-family: "Roboto", sans-serif;
   text-align: left;
-  /* border: red solid 1px; */
+  border: red solid 1px;
 }
 
 .titleBox {
@@ -59,4 +59,24 @@
   font-size: 1.1rem;
   margin: 1rem;
   margin-left: -1.2rem;
+}
+
+@media (max-width: 1023px) {
+  .componentBox {
+    width: 46rem;
+  }
+}
+
+@media (max-width: 737px) {
+  .componentBox {
+    border: blue solid 1px;
+    width: 36rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .componentBox {
+    border: green solid 1px;
+    width: 19rem;
+  }
 }

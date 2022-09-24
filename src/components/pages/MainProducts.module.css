@@ -80,3 +80,27 @@
     height: 19rem;
   }
 }
+
+@media (max-width: 737px) {
+  .componentBox {
+    border: blue solid 1px;
+    width: 36rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .componentBox {
+    border: green solid 1px;
+    width: 19rem;
+  }
+  .itemBox {
+    grid-template-columns: repeat(auto-fit, 9rem);
+  }
+  .item {
+    width: 9rem;
+    height: 12rem;
+  }
+  .name {
+    font-size: 1rem;
+  }
+}

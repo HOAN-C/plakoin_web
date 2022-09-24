@@ -12,7 +12,7 @@
   height: 25rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../../../public/img/Partners/background.jpg);
-  background-position: center;
+  background-position: left;
   border-radius: 3px;
 }
 
@@ -22,6 +22,7 @@
   font-size: 3rem;
   margin: 0;
   color: white;
+  text-align: center;
 }
 .line {
   margin-top: 1.3rem;
@@ -35,7 +36,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /* padding: 3rem 0; */
 }
 
 .item {
@@ -59,6 +59,7 @@
 
 .desc {
   height: 30%;
+  text-align: center;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -68,6 +69,7 @@
 }
 
 .name {
+  text-align: center;
   margin: 0;
   color: rgb(235, 205, 52);
   font-weight: 500;
@@ -86,5 +88,29 @@
   .componentBox {
     border: red solid 1px;
     width: 46rem;
+  }
+}
+
+@media (max-width: 737px) {
+  .componentBox {
+    border: blue solid 1px;
+    width: 36rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .componentBox {
+    border: green solid 1px;
+    width: 19rem;
+  }
+  .item {
+    padding: 0 5px;
+    width: 8rem;
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .mainProduct {
+    font-size: 0.8rem;
   }
 }

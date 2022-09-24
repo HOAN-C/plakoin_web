@@ -88,3 +88,50 @@
     padding: 20px 20px;
   }
 }
+
+@media (max-width: 737px) {
+  .componentBox {
+    border: blue solid 1px;
+    width: 36rem;
+  }
+  .itemBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .mapContainer {
+    width: 100%;
+    height: 45vw;
+  }
+  .infoBox {
+    width: 100%;
+    height: 12rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .item {
+    padding: 1rem 4px 1rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .componentBox {
+    border: green solid 1px;
+    width: 19rem;
+  }
+
+  .infoBox {
+    height: 23rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mapContainer {
+    height: 55vw;
+  }
+
+  .item {
+    padding: 0.5rem 4px 1rem;
+  }
+}

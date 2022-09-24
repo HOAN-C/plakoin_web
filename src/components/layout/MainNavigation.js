@@ -10,14 +10,21 @@ function MainNavigation() {
       </a>
       <nav>
         <ul>
-          <li>
-            <a href="/">Introdution</a>
+          <li className={classes.dropdown}>
+            <a className={classes.dropbtn} href="/">
+              Introdution
+            </a>
+            <div className={classes.dropdownContent}>
+              <a href="/">· main products</a>
+              <a href="/">· partner company</a>
+              <a href="/">· equipment status</a>
+              <a href="/">· brief history</a>
+              <a href="/">· organization chart</a>
+              <a href="/">· contact us</a>
+            </div>
           </li>
           <li>
             <a href="/">Contact</a>
-          </li>
-          <li>
-            <a href="/">ENG/IND</a>
           </li>
         </ul>
       </nav>

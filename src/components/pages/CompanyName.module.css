@@ -51,8 +51,6 @@
   justify-content: center;
   align-items: center;
   animation: fadeInPosition 1850ms ease-out 2300ms infinite normal backwards;
-  /* animation: name duration timing-function delay iteration-count direction
-    fill-mode; */
 }
 
 .mouse {
@@ -61,6 +59,29 @@
 
 .arrow {
   width: 30px;
+}
+
+@media (max-width: 737px) {
+  .imgBox {
+    margin-top: 50vh;
+    animation: fadeInPositionUp 1850ms ease-out 2300ms infinite normal backwards;
+  }
+}
+
+@media (max-width: 577px) {
+  .title {
+    /* border: red solid 1px; */
+    font-size: 4rem;
+  }
+  .span1 {
+    font-size: 1.5rem;
+  }
+  .span2 {
+    font-size: 1.5rem;
+  }
+  .span3 {
+    font-size: 1.5rem;
+  }
 }
 
 @keyframes fadeIn {
@@ -80,5 +101,16 @@
   to {
     opacity: 1;
     margin-top: 56vh;
+  }
+}
+
+@keyframes fadeInPositionUp {
+  from {
+    opacity: 0;
+    margin-top: 48vh;
+  }
+  to {
+    opacity: 1;
+    margin-top: 50vh;
   }
 }

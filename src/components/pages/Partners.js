@@ -15,12 +15,7 @@ function Partners(props) {
 
   return (
     <article className={classes.componentBox}>
-      <div
-        className={classes.titleBox}
-        // style={{
-        //   backgroundPositionY: position / 2,
-        // }}
-      >
+      <div className={classes.titleBox}>
         <h1 className={classes.title}>Partner company</h1>
         <div className={classes.line}></div>
       </div>
