@@ -11,3 +11,5 @@ Time : <a href="https://www.flaticon.com/free-icons/clock" title="clock icons">C
 Arrow : <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by twentyfour - Flaticon</a>
 
 Mouse : <a href="https://www.flaticon.com/free-icons/mouse-clicker" title="mouse clicker icons">Mouse clicker icons created by Kiranshastry - Flaticon</a>
+
+MenuIcon : <a href="https://www.flaticon.com/free-icons/hamburger" title="hamburger icons">Hamburger icons created by twentyfour - Flaticon</a>

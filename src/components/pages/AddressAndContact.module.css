@@ -77,7 +77,6 @@
 
 @media (max-width: 1023px) {
   .componentBox {
-    border: red solid 1px;
     width: 46rem;
   }
 
@@ -91,7 +90,6 @@
 
 @media (max-width: 737px) {
   .componentBox {
-    border: blue solid 1px;
     width: 36rem;
   }
   .itemBox {
@@ -117,8 +115,7 @@
 
 @media (max-width: 577px) {
   .componentBox {
-    border: green solid 1px;
-    width: 19rem;
+    width: 20rem;
   }
 
   .infoBox {

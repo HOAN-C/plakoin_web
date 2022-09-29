@@ -86,22 +86,25 @@
 
 @media (max-width: 1023px) {
   .componentBox {
-    border: red solid 1px;
+    /* border: red solid 1px; */
     width: 46rem;
   }
 }
 
 @media (max-width: 737px) {
   .componentBox {
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
     width: 36rem;
   }
 }
 
 @media (max-width: 577px) {
   .componentBox {
-    border: green solid 1px;
-    width: 19rem;
+    /* border: green solid 1px; */
+    width: 20rem;
+  }
+  .titleBox {
+    height: 18rem;
   }
   .item {
     padding: 0 5px;

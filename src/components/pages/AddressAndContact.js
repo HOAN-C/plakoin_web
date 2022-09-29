@@ -4,7 +4,7 @@ import classes from "./AddressAndContact.module.css";
 
 export default function ContactUs() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCFLgrxEeRFykz0cem3yeq8Vlv_yZQ7IYU",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLEMAP_KEY,
   });
 
   if (!isLoaded) return <div>Map Loading...</div>;

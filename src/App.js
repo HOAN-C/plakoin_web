@@ -1,5 +1,5 @@
-import "./App.css";
-import Layout from "./components/layout/Layout";
+import classes from "./App.module.css";
+import { useRef } from "react";
 import CompanyName from "./components/pages/CompanyName";
 import BriefHistory from "./components/pages/BriefHistory";
 import MainProducts from "./components/pages/MainProducts";
@@ -7,6 +7,7 @@ import EquipmentStatus from "./components/pages/EquipmentStatus";
 import Partners from "./components/pages/Partners";
 import ContactUs from "./components/pages/AddressAndContact";
 import OrganizationChart from "./components/pages/OrganizationChart";
+import Footer from "./components/layout/Footer";
 
 let mainProducts = [
   {
@@ -214,18 +215,64 @@ let briefHistory = [
 ];
 
 function App() {
+  let mainProductRef = useRef();
+  let partnersRef = useRef();
+  let equipmentStatusRef = useRef();
+  let historyRef = useRef();
+  let chartRef = useRef();
+  let contactRef = useRef();
+
+  function scrollTo(ref) {
+    if (!ref.current) return;
+    ref.current.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
-    <Layout>
+    <div>
+      <header className={classes.componentBox}>
+        <a href="/" className={classes.logo}>
+          <div className={classes.ptName}>PLAKOIN</div>
+          <div className={classes.country}>INDONESIA</div>
+        </a>
+        <nav>
+          <ul className={classes.menu}>
+            <li className={classes.dropdownBtn}>
+              <div className={classes.menuItem}>Introdution</div>
+              <div className={classes.dropdownContent}>
+                <a onClick={() => scrollTo(mainProductRef)}>· main products</a>
+
+                <a onClick={() => scrollTo(partnersRef)}>· partner company</a>
+
+                <a onClick={() => scrollTo(equipmentStatusRef)}>
+                  · equipment status
+                </a>
+                <a onClick={() => scrollTo(historyRef)}>· brief history</a>
+                <a onClick={() => scrollTo(chartRef)}>· organization chart</a>
+              </div>
+            </li>
+            <li>
+              <a className={classes.menuItem}>Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <section>
         <CompanyName />
-        <MainProducts mainProducts={mainProducts} />
-        <Partners partners={partners} />
+        <div ref={mainProductRef}></div>
+        <MainProducts id="mainProducts" mainProducts={mainProducts} />
+        <div ref={partnersRef}></div>
+        <Partners id="partners" partners={partners} />
+        <div ref={equipmentStatusRef}></div>
         <EquipmentStatus equipmentStatus={equipmentStatus} />
-        <BriefHistory briefHistory={briefHistory} />
-        <OrganizationChart />
-        <ContactUs />
+        <div ref={historyRef}></div>
+        <BriefHistory id="briefHistory" briefHistory={briefHistory} />
+        <div ref={chartRef}></div>
+        <OrganizationChart id="organizationChart" />
+        <div ref={contactRef}></div>
+        <ContactUs id="contactUs" />
       </section>
-    </Layout>
+      <Footer />
+    </div>
   );
 }
 

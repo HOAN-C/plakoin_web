@@ -1,18 +1,6 @@
-import { useEffect, useState } from "react";
 import classes from "./Partners.module.css";
 
 function Partners(props) {
-  const [position, setPosition] = useState(0);
-  function onScrill() {
-    setPosition(window.scrollY);
-  }
-  useEffect(() => {
-    window.addEventListener("scroll", onscroll);
-    return () => {
-      window.removeEventListener("scroll", onscroll);
-    };
-  }, []);
-
   return (
     <article className={classes.componentBox}>
       <div className={classes.titleBox}>
